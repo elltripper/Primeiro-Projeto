@@ -1,0 +1,123 @@
+/* Não comentei este código por ser um projeto para testar sem templates o desenvolvimento de uma página. */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,500&display=swap');
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: #c64533;
+    color: #e2bc6c;
+    padding: 22px;
+    text-align: center;
+    line-height: 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+    font-family: "Raleway";
+    display: block;
+     }
+
+     .simbol {
+        font-size: 130px;
+        color: #e2bc6c;
+        position: absolute;
+        top: -30px;
+        left: 70px;
+     }
+
+     hr {
+        display: block;
+        border-top: 2px solid #c64533;
+     }
+
+     .hist {    
+        display: block;
+        padding: 5px;
+        font-family: "Raleway";
+        font-size: 8px;
+        color: #c69033;
+        background-color: #893023;
+        text-align: center;
+        border-radius: 15px 20px;
+        line-height: 30px;
+     }
+
+     img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        border-radius: 15px 15px;
+     }
+
+     .ahoi {
+        display: block;
+        padding: 5px;
+        font-family: "Raleway";
+        font-size: 12px;
+        color: #c69033;
+        text-align: center;
+        line-height: 30px;
+        }
+
+    .ursst {
+        padding: 1px;
+        font-size: 50px;
+        color: #893023;
+        font-family: "Raleway";
+        text-align: center;
+        border-radius: 16px 16px;
+    } 
+
+    .urss {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Raleway";
+            font-size: 8px;
+            color: #b23e2d;
+            text-align: center;
+            border-radius: 15px 20px;
+            line-height: 30px;
+        }
+
+    .urss::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.2;
+        background-color: black;
+        background-image: url("https://www.nme.com/wp-content/uploads/2021/10/hearts-of-iron-2000x1270-1-696x442.jpg");        
+    }
+
+    ul, li {
+
+        display:inline-block;
+        zoom:1;
+    }
+
+    .membrosurss {
+        text-align: center;
+        font-size: 15px;
+        color:#893023;
+        padding: -5px;
+        font-family: "Raleway";
+        font-size: 15px;
+        color: #c69033;
+        background-color: #893023;
+        text-align: center;
+        border-radius: 15px 15px;
+    }
+
+    footer {
+        text-align: center;
+        color:#893023;
+        font-family: "raleway";
+        font-size: 25px;
+    }
